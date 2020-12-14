@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cbnblog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+shiro-redis:
+  enabled: true
+  redis-manager:
+    host: 127.0.0.1:6379
+#logging:
+#  level:
+#    root: info
+#    com.cbn: debug
+#  file:
+#    name: log/blog-dev.log
